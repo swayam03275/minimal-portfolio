@@ -1,33 +1,26 @@
-import {
-  Code,
-  Database,
-  Globe,
-  Smartphone,
-  Server,
-  Palette,
-} from "lucide-react";
+import { Code, Database, Globe, Server } from "lucide-react";
 
 export const skills = [
   // Programming Languages
   { name: "JavaScript", icon: Code, level: 95 },
   { name: "TypeScript", icon: Code, level: 90 },
   { name: "Python", icon: Code, level: 80 },
-  { name: "Java", icon: Code, level: 75 },            // Intermediate
-  { name: "SQL", icon: Database, level: 75 },         // Intermediate
+  { name: "Java", icon: Code, level: 75 }, // Intermediate
+  { name: "SQL", icon: Database, level: 75 }, // Intermediate
 
   // Frameworks & Libraries
   { name: "React", icon: Code, level: 95 },
-  { name: "Next.js", icon: Globe, level: 75 },        // Intermediate
+  { name: "Next.js", icon: Globe, level: 75 }, // Intermediate
   { name: "Node.js", icon: Server, level: 85 },
 
   // Databases & Backend Tools
   { name: "MongoDB", icon: Database, level: 80 },
-  { name: "PostgreSQL", icon: Database, level: 75 },  // Intermediate
+  { name: "PostgreSQL", icon: Database, level: 75 }, // Intermediate
   { name: "Cloudinary", icon: Server, level: 80 },
 
   // Other Skills
-  { name: "IoT", icon: Code, level: 75 },               // Intermediate
-  { name: "Docker", icon: Server, level: 60 },        // Beginner
+  { name: "IoT", icon: Code, level: 75 }, // Intermediate
+  { name: "Docker", icon: Server, level: 60 }, // Beginner
 ];
 
 export const projects = [
@@ -35,9 +28,17 @@ export const projects = [
     title: "Airly-Blogging Platform",
     description:
       "Airly is a full-stack, image-based social media web application inspired by Pinterest, built to explore scalable system design and modern web development practices. The platform allows users to upload and share images, like and comment on posts, manage personalized profiles, and discover trending content through a smart ranking algorithm that prioritizes meaningful engagement over simple popularity. It features a dedicated user dashboard for managing posts, profile details, and interactions, along with an admin dashboard that enables content moderation, user management, and platform oversight. Airly is built with a performance-optimized backend using Node.js, Express, and MongoDB, leveraging aggregation pipelines, indexing, and secure JWT-based authentication, while the frontend is developed with React, TypeScript, Tailwind CSS, and Redux Toolkit to deliver a clean, responsive, and intuitive user experience.",
-    tech: ["React.js", "TypeScript", "MongoDB", "Express.js", "Tailwind CSS","Cloudinary","Node.js" ],
+    tech: [
+      "React.js",
+      "TypeScript",
+      "MongoDB",
+      "Express.js",
+      "Tailwind CSS",
+      "Cloudinary",
+      "Node.js",
+    ],
     github: "https://github.com/swayam03275/Airly",
-    live: "airly-gamma.vercel.app",
+    live: "https://airly-gamma.vercel.app",
     image: "/placeholder.svg?height=200&width=400",
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
@@ -45,13 +46,20 @@ export const projects = [
     title: "AI Resume Builder",
     description:
       "AI Resume Builder is a modern, AI-powered web application designed to help users create professional, ATS-friendly resumes with ease. The platform offers a guided, step-by-step resume builder with real-time preview, multiple professionally designed templates, customizable color themes, and profile photo support, ensuring both flexibility and visual polish. It integrates AI-assisted content generation to help users craft impactful summaries, work experience, and project descriptions, along with real-time ATS score analysis and actionable feedback to improve resume compatibility with hiring systems. Users can securely sign up and manage their resumes through a personalized dashboard, save and edit multiple resumes in the cloud, and export print-optimized PDFs with a single click. Built with a responsive, animation-enhanced frontend and a secure, scalable backend using JWT authentication, the application focuses on usability, performance, and delivering a smooth end-to-end resume creation experience.",
-    tech: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS", "Gemini API"],
+    tech: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Tailwind CSS",
+      "Gemini API",
+    ],
     github: "https://github.com/swayam03275/ai-resumee",
-    live: "ai-resumee-sand.vercel.app",
+    live: "https://ai-resumee-sand.vercel.app",
     image: "/placeholder.svg?height=200&width=400",
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
-  
+
   {
     title: "Portfolio Website",
     description:
@@ -73,7 +81,6 @@ export const projects = [
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
 ];
-
 
 export const experience = [
   {
