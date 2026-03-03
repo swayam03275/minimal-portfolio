@@ -65,8 +65,8 @@ export const projects = [
     description:
       "My personal portfolio showcasing my projects, skills, and experience. Built with Next.js and Tailwind CSS for a responsive design.",
     tech: ["Next.js", "Tailwind CSS", "React", "TypeScript"],
-    github: "https://github.com",
-    live: "https://example.com",
+    github: "https://github.com/swayam03275/minimal-portfolio",
+    live: "https://minimal-portfolio-dusky-pi.vercel.app",
     image: "/placeholder.svg?height=200&width=400",
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
