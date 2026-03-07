@@ -82,7 +82,7 @@ export const projects = [
     "ESP8266",
     "Google Gemini AI"
   ],
-  "github": "https://github.com/your-repo",
+  "github": "https://github.com/swayam03275/SmartAgricare-AI-IOT-Enabled-plant-monitoring-system",
   "live": "https://your-live-link.com",
    image: "/placeholder.svg?height=200&width=400",
     image_dark: "/placeholder.dark.svg?height=200&width=400"
