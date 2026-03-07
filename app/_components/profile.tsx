@@ -44,8 +44,8 @@ export default function Profile({ setActiveTab }: ProfileProps) {
                         </div>
 
                         <div>
-                            <Link href="/resume_dummy.pdf" target='_blank' className="inline-flex items-center text-sm text-primary hover:underline"
-                                aria-label="Download Resume" download="Alex_Developer_Resume.pdf" rel="noopener noreferrer">
+                            <Link href="/swayam_resume.pdf" target='_blank' className="inline-flex items-center text-sm text-primary hover:underline"
+                                aria-label="Download Resume" download="Swayam_Resume.pdf" rel="noopener noreferrer">
                                 <Download className="w-4 h-4 mr-2" />
                                 Download Resume
                             </Link>
