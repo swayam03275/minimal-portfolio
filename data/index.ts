@@ -71,15 +71,22 @@ export const projects = [
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
   {
-    title: "Blog Platform",
-    description:
-      "A full-featured blogging platform with user authentication, markdown support, and social sharing capabilities.",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Tailwind CSS"],
-    github: "https://github.com",
-    live: "https://example.com",
-    image: "/placeholder.svg?height=200&width=400",
-    image_dark: "/placeholder.dark.svg?height=200&width=400",
-  },
+  "title": "SmartAgricare AI — Intelligent IoT Agriculture Monitoring Platform",
+  "description": "AI-powered IoT agriculture monitoring platform that collects real-time farm data from ESP8266 sensors and analyzes it using Gemini AI to generate crop care, irrigation, and environmental risk recommendations. Features live sensor streaming, automated alerts, and a secure farmer dashboard.",
+  "tech": [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.IO",
+    "ESP8266",
+    "Google Gemini AI"
+  ],
+  "github": "https://github.com/your-repo",
+  "live": "https://your-live-link.com",
+   image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400"
+},
 ];
 
 export const experience = [
